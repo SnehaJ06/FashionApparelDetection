@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detection Result</title>
+</head>
+<body>
+  <h2>Detected Apparels:</h2>
+  <ul>
+    {% for label in labels %}
+      <li>{{ label }}</li>
+    {% endfor %}
+  </ul>
+  <img src="{{ image_path }}" width="300">
+</body>
+</html>

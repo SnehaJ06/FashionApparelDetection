@@ -1,0 +1,7 @@
+path: ../fashion_dataset
+train: ../fashion_dataset/images/train
+val: ../fashion_dataset/images/val
+
+nc: 10  # number of classes
+
+names: ['Tshirts', 'Dresses', 'Shoes', 'Bags', 'Skirts', 'Tops', 'Jeans', 'Shorts', 'Jackets', 'Boots']
